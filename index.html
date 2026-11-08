@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#080b15">
+<meta name="color-scheme" content="dark">
+<title>Kakobuy Links Polska 2026 | Linki, Spreadsheet, QC i Poradnik</title>
+<meta name="description" content="Kakobuy links Polska 2026: odkryj katalog linków do butów, ubrań i akcesoriów. Sprawdź QC, kategorie, koszty dostawy do Polski i poradniki zakupowe.">
+<meta name="keywords" content="kakobuy links,kakobuy links polska,kakobuy spreadsheet,kakobuy linki,kakobuy lista,kakobuy qc,kakobuy 2026">
+<link rel="canonical" href="/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pl_PL">
+<meta property="og:title" content="Kakobuy Links Polska — Atlas Linków 2026">
+<meta property="og:description" content="Polski przewodnik po Kakobuy links: 13 kategorii, 20 poradników, wskazówki QC i informacje o zakupach.">
+<meta name="twitter:card" content="summary">
+<style>
+:root{
+ --bg:#080b15;
+ --panel:#101522;
+ --white:#f4f7f2;
+ --muted:#abb8c9;
+ --line:#303c4f;
+ --cyan:#70ffe4;
+ --pink:#ff648c;
+ --yellow:#e0ff70;
+ --orange:#ffad73;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:85px}
+body{
+ margin:0;
+ background:var(--bg);
+ color:var(--white);
+ font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+ line-height:1.65;
+ overflow-x:hidden;
+}
+body:before{
+ content:"";
+ position:absolute;
+ inset:0 0 auto;
+ height:1450px;
+ z-index:-1;
+ pointer-events:none;
+ background:
+ radial-gradient(ellipse at 79% 18%,#ff648c14,transparent 44%),
+ radial-gradient(ellipse at 12% 60%,#70ffe413,transparent 45%),
+ linear-gradient(90deg,#ffffff06 1px,transparent 1px),
+ linear-gradient(#ffffff06 1px,transparent 1px);
+ background-size:auto,auto,68px 68px,68px 68px;
+}
+a{color:inherit}
+a:focus-visible,summary:focus-visible{
+ outline:3px solid var(--yellow);
+ outline-offset:5px;
+}
+a:hover{color:var(--cyan)}
+button,summary{font:inherit}
+::selection{background:var(--pink);color:#080b15}
+.wrap{width:min(1320px,90%);margin:auto}
+.skip{
+ position:absolute;
+ top:-100px;left:20px;
+ background:var(--yellow);
+ color:#080b15;
+ padding:10px 20px;
+ z-index:100;
+}
+.skip:focus{top:12px}
+.header{
+ position:relative;
+ z-index:30;
+ border-bottom:1px solid #ffffff20;
+ background:#080b15ef;
+}
+.header-inner{
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ min-height:76px;
+ gap:24px;
+}
+.logo{
+ font-size:1.3rem;
+ font-weight:950;
+ letter-spacing:-1px;
+ text-decoration:none;
+ white-space:nowrap;
+}
+.logo b{color:var(--cyan)}
+.logo small{
+ display:inline-block;
+ margin-left:12px;
+ color:var(--muted);
+ font-size:.65rem;
+ letter-spacing:3px;
+ vertical-align:middle;
+}
+.nav{
+ display:flex;
+ align-items:center;
+ gap:26px;
+ font-size:.84rem;
+ font-weight:750;
+ text-transform:uppercase;
+ letter-spacing:1px;
+}
+.nav>a{text-decoration:none}
+.categories{position:relative}
+.categories summary{
+ display:flex;
+ align-items:center;
+ gap:9px;
+ cursor:pointer;
+ color:var(--yellow);
+ list-style:none;
+ user-select:none;
+}
+.categories summary::-webkit-details-marker{display:none}
+.categories summary:after{content:"⌄";font-size:1.2rem}
+.categories[open] summary:after{content:"⌃"}
+.category-list{
+ position:absolute;
+ top:calc(100% + 21px);
+ right:0;
+ width:min(350px,85vw);
+ padding:13px;
+ background:#111827;
+ border:1px solid var(--cyan);
+ box-shadow:12px 12px 0 #05070b;
+ display:grid;
+ grid-template-columns:1fr 1fr;
+ gap:3px;
+ max-height:70vh;
+ overflow:auto;
+}
+.category-list a{
+ padding:10px;
+ text-decoration:none;
+ font-size:.79rem;
+ font-weight:650;
+ border-bottom:1px solid #ffffff15;
+ text-transform:none;
+ letter-spacing:0;
+}
+.category-list a:hover{
+ background:var(--cyan);
+ color:#071019;
+}
+.hero{
+ min-height:calc(100svh - 76px);
+ display:grid;
+ grid-template-columns:1.15fr .85fr;
+ align-items:center;
+ gap:4%;
+ position:relative;
+ padding:75px 0 90px;
+ isolation:isolate;
+}
+.hero-copy{position:relative;z-index:2}
+.eyebrow{
+ display:inline-flex;
+ align-items:center;
+ gap:13px;
+ color:var(--cyan);
+ text-transform:uppercase;
+ letter-spacing:4px;
+ font-size:.76rem;
+ font-weight:850;
+}
+.eyebrow:before{
+ content:"";
+ width:31px;height:3px;
+ background:var(--pink);
+}
+.hero h1{
+ font-size:clamp(4.4rem,10.5vw,10.5rem);
+ line-height:.83;
+ letter-spacing:-.085em;
+ font-weight:950;
+ margin:32px 0 28px;
+ text-transform:uppercase;
+}
+.hero h1 span{display:block}
+.hero h1 .gradient{
+ color:transparent;
+ background:linear-gradient(100deg,var(--cyan),var(--yellow) 60%,var(--pink));
+ background-clip:text;
+ -webkit-background-clip:text;
+ padding-right:.1em;
+}
+.hero-sub{
+ font-size:clamp(1.05rem,1.6vw,1.3rem);
+ color:#d2deea;
+ max-width:520px;
+ border-left:3px solid var(--pink);
+ padding-left:20px;
+ margin:0 0 35px;
+}
+.hero-actions{
+ display:flex;
+ flex-wrap:wrap;
+ gap:13px;
+}
+.btn{
+ display:inline-flex;
+ align-items:center;
+ justify-content:center;
+ min-height:57px;
+ padding:14px 23px;
+ font-weight:900;
+ text-decoration:none;
+ font-size:.88rem;
+ letter-spacing:.3px;
+ transition:transform .2s,background .2s;
+}
+.btn:hover{transform:translateY(-3px)}
+.btn-primary{
+ background:var(--yellow);
+ color:#080b15;
+ clip-path:polygon(0 0,93% 0,100% 22%,100% 100%,0 100%);
+}
+.btn-primary:hover{color:#080b15;background:var(--cyan)}
+.btn-secondary{
+ border:1px solid var(--cyan);
+ color:var(--cyan);
+}
+.btn-secondary:hover{background:#70ffe41a}
+.btn-local{
+ border:1px solid #ffffff55;
+ color:var(--white);
+}
+.status{
+ display:flex;
+ flex-wrap:wrap;
+ gap:12px 28px;
+ margin-top:38px;
+ font-size:.71rem;
+ text-transform:uppercase;
+ letter-spacing:2px;
+ color:var(--muted);
+}
+.status span:before{
+ content:"◆";
+ color:var(--pink);
+ margin-right:9px;
+ font-size:.55rem;
+}
+.portal-area{
+ min-width:0;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ position:relative;
+}
+.portal{
+ width:min(42vw,520px);
+ aspect-ratio:1;
+ position:relative;
+ border-radius:50%;
+ background:
+ radial-gradient(circle at center,#080b15 0 19%,transparent 19.5%),
+ repeating-radial-gradient(circle,transparent 0 45px,#70ffe435 46px 47px,transparent 48px 68px),
+ conic-gradient(from 20deg,#70ffe4 0deg,transparent 34deg,#ff648c 85deg,transparent 142deg,#e0ff70 194deg,transparent 245deg,#70ffe4 310deg,transparent 360deg);
+ box-shadow:0 0 85px #70ffe415;
+ transform:rotate(-15deg);
+}
+.portal:before{
+ content:"";
+ position:absolute;
+ inset:10%;
+ border:2px dashed #ffffff65;
+ border-radius:50%;
+ animation:spin 50s linear infinite;
+}
+.portal:after{
+ content:"";
+ position:absolute;
+ inset:24%;
+ border-radius:50%;
+ background:var(--bg);
+ border:16px solid #080b15;
+ outline:1px solid var(--pink);
+ box-shadow:0 0 0 23px #ff648c17;
+}
+.portal-core{
+ position:absolute;
+ z-index:2;
+ inset:35%;
+ display:flex;
+ flex-direction:column;
+ align-items:center;
+ justify-content:center;
+ text-align:center;
+ transform:rotate(15deg);
+}
+.portal-core strong{
+ font-size:clamp(1.6rem,4vw,3.5rem);
+ line-height:1;
+ letter-spacing:-3px;
+ color:var(--yellow);
+}
+.portal-core span{
+ font-size:.6rem;
+ font-weight:800;
+ letter-spacing:3px;
+ color:var(--cyan);
+}
+.portal-tag{
+ position:absolute;
+ z-index:4;
+ transform:rotate(15deg);
+ padding:8px 13px;
+ font-size:.7rem;
+ letter-spacing:2px;
+ font-weight:900;
+ color:#080b15;
+}
+.tag-a{top:11%;left:-4%;background:var(--cyan)}
+.tag-b{right:-4%;bottom:23%;background:var(--pink)}
+.tag-c{bottom:0;left:14%;background:var(--yellow)}
+.hero-bottom{
+ position:absolute;
+ bottom:19px;
+ left:0;right:0;
+ display:flex;
+ align-items:center;
+ justify-content:space-between;
+ gap:15px;
+ border-top:1px solid #ffffff25;
+ padding-top:13px;
+ font-size:.7rem;
+ text-transform:uppercase;
+ letter-spacing:2px;
+ color:var(--muted);
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+.marquee{
+ border-top:1px solid var(--cyan);
+ border-bottom:1px solid var(--cyan);
+ background:var(--cyan);
+ color:#071118;
+ overflow:hidden;
+}
+.marquee-inner{
+ display:flex;
+ gap:38px;
+ align-items:center;
+ justify-content:center;
+ flex-wrap:wrap;
+ min-height:58px;
+ font-weight:950;
+ text-transform:uppercase;
+ letter-spacing:2px;
+ font-size:.78rem;
+}
+.marquee b{color:#e02d65}
+.section{
+ padding:100px 0;
+}
+.section-label{
+ display:block;
+ color:var(--pink);
+ font-size:.73rem;
+ font-weight:850;
+ letter-spacing:4px;
+ text-transform:uppercase;
+ margin-bottom:12px;
+}
+.section-title{
+ font-size:clamp(2.7rem,6vw,6rem);
+ line-height:.98;
+ letter-spacing:-.06em;
+ text-transform:uppercase;
+ max-width:920px;
+ margin:0 0 25px;
+ font-weight:950;
+}
+.section-title em{
+ font-style:normal;
+ color:var(--cyan);
+}
+.section-intro{
+ color:var(--muted);
+ max-width:730px;
+ font-size:1rem;
+}
+.signal-map{
+ position:relative;
+ padding-top:110px;
+}
+.signal-map:before{
+ content:"";
+ position:absolute;
+ top:0;
+ right:5%;
+ width:250px;height:170px;
+ background:repeating-linear-gradient(120deg,transparent 0 14px,#ff648c45 15px 16px);
+ clip-path:polygon(40% 0,100% 0,60% 100%,0 100%);
+ pointer-events:none;
+}
+.map-head{
+ display:grid;
+ grid-template-columns:1fr 220px;
+ gap:35px;
+ align-items:end;
+}
+.map-aside{
+ color:var(--yellow);
+ font-size:.8rem;
+ line-height:1.8;
+ font-weight:700;
+ text-transform:uppercase;
+ letter-spacing:1px;
+}
+.toc{
+ list-style:none;
+ counter-reset:toc;
+ margin:50px 0 0;
+ padding:0;
+ display:grid;
+ grid-template-columns:repeat(4,minmax(0,1fr));
+ border-top:1px solid var(--line);
+ border-left:1px solid var(--line);
+}
+.toc li{
+ counter-increment:toc;
+ border-right:1px solid var(--line);
+ border-bottom:1px solid var(--line);
+ min-height:125px;
+}
+.toc a{
+ display:flex;
+ height:100%;
+ flex-direction:column;
+ justify-content:space-between;
+ padding:17px;
+ text-decoration:none;
+ font-size:.9rem;
+ font-weight:800;
+ line-height:1.3;
+ transition:background .2s;
+}
+.toc a:before{
+ content:counter(toc,decimal-leading-zero)" / 20";
+ color:var(--pink);
+ font-size:.7rem;
+ letter-spacing:2px;
+ font-weight:800;
+}
+.toc a:hover{
+ background:var(--yellow);
+ color:#080b15;
+}
+.toc a:hover:before{color:#080b15}
+.category-band{
+ display:grid;
+ grid-template-columns:1fr 1.1fr;
+ gap:50px;
+ align-items:center;
+ background:linear-gradient(110deg,#e0ff70,#70ffe4);
+ color:#080b15;
+ padding:42px clamp(24px,5vw,80px);
+ margin:20px 0 0;
+ clip-path:polygon(0 0,97% 0,100% 17%,100% 100%,0 100%);
+}
+.category-band h2{
+ margin:0 0 10px;
+ font-size:clamp(1.9rem,3vw,3.2rem);
+ line-height:1.05;
+ letter-spacing:-2px;
+}
+.category-band p{margin:0}
+.category-band a{
+ display:inline-block;
+ padding:15px 22px;
+ background:#080b15;
+ color:var(--cyan);
+ font-weight:900;
+ text-decoration:none;
+ margin:7px;
+}
+.category-band a:hover{color:var(--yellow)}
+.article-section{
+ background:linear-gradient(180deg,#080b15,#10101c 42%,#080b15);
+}
+.editorial-head{
+ display:flex;
+ justify-content:space-between;
+ align-items:end;
+ gap:35px;
+ padding-bottom:40px;
+ border-bottom:1px solid var(--cyan);
+}
+.editorial-head .section-title{margin-bottom:0}
+.read-time{
+ color:var(--yellow);
+ font-size:.75rem;
+ font-weight:800;
+ letter-spacing:2px;
+ text-transform:uppercase;
+ min-width:160px;
+}
+.entries{
+ counter-reset:entry;
+}
+.entry{
+ counter-increment:entry;
+ display:grid;
+ grid-template-columns:minmax(80px,190px) minmax(0,760px);
+ gap:clamp(15px,5vw,75px);
+ padding:58px 0 60px;
+ border-bottom:1px solid var(--line);
+ position:relative;
+}
+.entry:before{
+ content:counter(entry,decimal-leading-zero);
+ color:transparent;
+ -webkit-text-stroke:1px #ff648c90;
+ font-size:clamp(4rem,9vw,8rem);
+ line-height:1;
+ font-weight:950;
+ letter-spacing:-10px;
+}
+.entry:nth-child(even){
+ padding-left:min(8vw,100px);
+}
+.entry:nth-child(3n+2):before{
+ -webkit-text-stroke-color:#70ffe490;
+}
+.entry:nth-child(3n):before{
+ -webkit-text-stroke-color:#e0ff7090;
+}
+.entry h2{
+ font-size:clamp(1.55rem,2.6vw,2.5rem);
+ letter-spacing:-1px;
+ line-height:1.17;
+ margin:0 0 24px;
+}
+.entry h2:before{
+ content:"";
+ display:block;
+ width:47px;
+ height:4px;
+ background:var(--pink);
+ margin-bottom:23px;
+}
+.entry:nth-child(even) h2:before{background:var(--cyan)}
+.entry p{
+ color:#c3d0dd;
+ margin:0 0 15px;
+ max-width:690px;
+}
+.entry strong{color:var(--white)}
+.entry .answer{
+ background:#ffffff08;
+ border-left:2px solid var(--yellow);
+ padding:13px 18px;
+ color:#f0f5e9;
+ margin-top:21px;
+ font-size:.92rem;
+}
+.entry .returns{
+ display:flex;
+ flex-wrap:wrap;
+ gap:23px;
+ margin-top:23px;
+ margin-bottom:0;
+ font-size:.76rem;
+ text-transform:uppercase;
+ letter-spacing:1.5px;
+ font-weight:850;
+}
+.returns a{
+ text-decoration:none;
+ color:var(--cyan);
+}
+.returns a:last-child{color:var(--yellow)}
+.returns a:hover{text-decoration:underline}
+.faq-section{
+ border-top:1px solid var(--pink);
+ background:
+ radial-gradient(ellipse at 94% 14%,#ff648c17,transparent 50%);
+}
+.faq-layout{
+ display:grid;
+ grid-template-columns:.7fr 1.3fr;
+ gap:8%;
+}
+.faq-list details{
+ border-bottom:1px solid var(--line);
+ padding:22px 0;
+}
+.faq-list summary{
+ cursor:pointer;
+ font-size:1.1rem;
+ font-weight:850;
+ list-style:none;
+ display:flex;
+ justify-content:space-between;
+ gap:20px;
+}
+.faq-list summary::-webkit-details-marker{display:none}
+.faq-list summary:after{
+ content:"+";
+ color:var(--yellow);
+ font-size:1.6rem;
+}
+.faq-list details[open] summary:after{content:"−"}
+.faq-list p{color:var(--muted);max-width:680px}
+.footer{
+ border-top:1px solid var(--cyan);
+ padding:60px 0 30px;
+ background:#060911;
+}
+.footer-top{
+ display:grid;
+ grid-template-columns:1.2fr 1fr;
+ gap:80px;
+}
+.footer h2{
+ font-size:clamp(2rem,4vw,4rem);
+ line-height:1;
+ margin:0 0 20px;
+ letter-spacing:-3px;
+}
+.footer p{
+ color:var(--muted);
+ font-size:.89rem;
+ max-width:590px;
+}
+.footer-links{
+ display:flex;
+ flex-direction:column;
+ gap:12px;
+ align-items:flex-start;
+}
+.footer-links a{
+ text-decoration:none;
+ font-weight:800;
+ color:var(--cyan);
+}
+.footer-bottom{
+ border-top:1px solid var(--line);
+ margin-top:45px;
+ padding-top:20px;
+ display:flex;
+ justify-content:space-between;
+ flex-wrap:wrap;
+ gap:12px;
+ font-size:.72rem;
+ letter-spacing:1px;
+ text-transform:uppercase;
+ color:var(--muted);
+}
+@media(max-width:1050px){
+ .toc{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .hero h1{font-size:clamp(4.2rem,10vw,8rem)}
+}
+@media(max-width:800px){
+ .header-inner{min-height:68px}
+ .nav{gap:14px;font-size:.73rem}
+ .nav .optional{display:none}
+ .logo small{display:none}
+ .hero{
+  min-height:calc(100svh - 68px);
+  display:flex;
+  align-items:center;
+  padding:85px 0 100px;
+ }
+ .hero h1{font-size:clamp(4.1rem,15vw,8rem)}
+ .portal-area{
+  position:absolute;
+  right:-21%;
+  top:12%;
+  width:80%;
+  opacity:.35;
+  z-index:0;
+ }
+ .portal{width:100%}
+ .portal-tag,.portal-core span{display:none}
+ .hero-copy{max-width:650px}
+ .map-head,.category-band,.faq-layout,.footer-top{
+  grid-template-columns:1fr;
+  gap:24px;
+ }
+ .toc{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .entry{grid-template-columns:75px 1fr;gap:18px}
+ .entry:nth-child(even){padding-left:0}
+ .entry:before{letter-spacing:-6px}
+ .editorial-head{align-items:start;flex-direction:column}
+ .category-band{clip-path:none}
+}
+@media(max-width:480px){
+ .wrap{width:90%}
+ .header-inner{gap:8px}
+ .logo{font-size:1.05rem}
+ .nav{gap:12px;font-size:.69rem}
+ .nav>a[href="#faq"]{display:none}
+ .hero h1{font-size:clamp(3.85rem,16vw,5.7rem)}
+ .hero-sub{font-size:1rem}
+ .hero-actions{gap:9px}
+ .btn{min-height:49px;padding:12px 15px;font-size:.76rem}
+ .hero-bottom{font-size:.57rem}
+ .toc li{min-height:110px}
+ .toc a{padding:13px;font-size:.8rem}
+ .section{padding:70px 0}
+ .entry{
+  display:block;
+  padding:35px 0 40px;
+ }
+ .entry:before{
+  display:block;
+  font-size:3.7rem;
+  margin-bottom:13px;
+ }
+ .entry h2{font-size:1.65rem}
+ .entry h2:before{display:none}
+ .category-list{right:-10px}
+ .portal-area{right:-40%;width:105%}
+ .footer-top{gap:28px}
+}
+@media(prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto}
+ *,*:before,*:after{
+  animation:none!important;
+  transition:none!important;
+ }
+}
+</style>
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@graph":[
+  {
+   "@type":"WebSite",
+   "@id":"/#website",
+   "name":"Kakobuy Links Polska",
+   "url":"/",
+   "inLanguage":"pl-PL",
+   "description":"Niezależny polski przewodnik po linkach Kakobuy."
+  },
+  {
+   "@type":"CollectionPage",
+   "@id":"/#webpage",
+   "url":"/",
+   "name":"Kakobuy Links Polska 2026 — poradnik i kategorie",
+   "description":"Lista kategorii i 20 poradników o linkach Kakobuy, kontroli jakości i zakupach w Polsce.",
+   "inLanguage":"pl-PL",
+   "isPartOf":{"@id":"/#website"}
+  },
+  {
+   "@type":"FAQPage",
+   "@id":"/#faqpage",
+   "inLanguage":"pl-PL",
+   "mainEntity":[
+    {
+     "@type":"Question",
+     "name":"Czym są Kakobuy links?",
+     "acceptedAnswer":{"@type":"Answer","text":"Kakobuy links to odnośniki prowadzące do ofert produktów lub katalogów pomocnych w wyszukiwaniu produktów. Przed zakupem warto zweryfikować ofertę, sprzedawcę, zdjęcia i warunki dostawy."}
+    },
+    {
+     "@type":"Question",
+     "name":"Czy Kakobuy spreadsheet i Kakobuy links to to samo?",
+     "acceptedAnswer":{"@type":"Answer","text":"Niezupełnie. Kakobuy spreadsheet to uporządkowana lista produktów i odnośników, natomiast Kakobuy links oznacza pojedyncze linki lub ich zbiór."}
+    },
+    {
+     "@type":"Question",
+     "name":"Jak sprawdzić Kakobuy QC?",
+     "acceptedAnswer":{"@type":"Answer","text":"Należy przejrzeć dostępne zdjęcia kontroli jakości, sprawdzić wymiary, materiał, detale i zgodność wariantu produktu z zamówieniem. Dostępność zdjęć QC nie jest gwarantowana."}
+    },
+    {
+     "@type":"Question",
+     "name":"Czy dostawa do Polski podlega dodatkowym opłatom?",
+     "acceptedAnswer":{"@type":"Answer","text":"Import do Polski może wiązać się z VAT, cłem, kosztami odprawy i przewozu. Ostateczne opłaty zależą od wartości przesyłki, rodzaju towaru i obowiązujących przepisów."}
+    },
+    {
+     "@type":"Question",
+     "name":"Czy ta strona jest oficjalną stroną Kakobuy?",
+     "acceptedAnswer":{"@type":"Answer","text":"Nie. To niezależna strona informacyjna. Nie prowadzi sprzedaży, nie realizuje zamówień i nie świadczy obsługi klienta Kakobuy."}
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#content">Przejdź do treści</a>
+
+<header class="header" id="top">
+ <div class="wrap header-inner">
+  <a href="#top" class="logo" aria-label="Kakobuy Links Polska — strona główna">KL<b>/</b>ATLAS <small>POLSKA · 2026</small></a>
+  <nav class="nav" aria-label="Nawigacja główna">
+   <a href="#map">Atlas</a>
+   <a href="#guide" class="optional">Poradniki</a>
+   <a href="#faq">FAQ</a>
+   <details class="categories">
+    <summary>Kategorie</summary>
+    <div class="category-list">
+     <a href="https://kakobuycnsheets.com/category-911-Shoes.html" target="_blank" rel="noopener nofollow">Shoes</a>
+     <a href="https://kakobuycnsheets.com/category-912-Hoodies%2FSweaters.html" target="_blank" rel="noopener nofollow">Hoodies/Sweaters</a>
+     <a href="https://kakobuycnsheets.com/category-913-T-Shirts.html" target="_blank" rel="noopener nofollow">T-Shirts</a>
+     <a href="https://kakobuycnsheets.com/category-914-Jackets.html" target="_blank" rel="noopener nofollow">Jackets</a>
+     <a href="https://kakobuycnsheets.com/category-915-Pants%2FShorts.html" target="_blank" rel="noopener nofollow">Pants/Shorts</a>
+     <a href="https://kakobuycnsheets.com/category-916-Headwear.html" target="_blank" rel="noopener nofollow">Headwear</a>
+     <a href="https://kakobuycnsheets.com/category-917-Sets.html" target="_blank" rel="noopener nofollow">Sets</a>
+     <a href="https://kakobuycnsheets.com/category-918-underwear%2Funderpants.html" target="_blank" rel="noopener nofollow">Underwear/Underpants</a>
+     <a href="https://kakobuycnsheets.com/category-919-Jersey.html" target="_blank" rel="noopener nofollow">Jersey</a>
+     <a href="https://kakobuycnsheets.com/category-920-Accessories.html" target="_blank" rel="noopener nofollow">Accessories</a>
+     <a href="https://kakobuycnsheets.com/category-921-Bags.html" target="_blank" rel="noopener nofollow">Bag</a>
+     <a href="https://kakobuycnsheets.com/category-922-Belts.html" target="_blank" rel="noopener nofollow">Belts</a>
+     <a href="https://kakobuycnsheets.com/category-923-Perfumes.html" target="_blank" rel="noopener nofollow">Perfumes</a>
+    </div>
+   </details>
+  </nav>
+ </div>
+</header>
+
+<main id="content">
+
+<section class="hero wrap" aria-labelledby="hero-title">
+ <div class="hero-copy">
+  <span class="eyebrow">Niezależny przewodnik / Polska / 2026</span>
+  <h1 id="hero-title">
+   <span>KAKO</span>
+   <span>BUY</span>
+   <span class="gradient">LINKS<span style="color:var(--pink);display:inline">.</span></span>
+  </h1>
+  <p class="hero-sub">
+   Kakobuy links Polska — odkrywaj kategorie produktów, poznaj zasady sprawdzania QC i korzystaj z praktycznych poradników przed zakupem.
+  </p>
+  <div class="hero-actions">
+   <a class="btn btn-primary" href="https://kakobuycnsheets.com/index.html" target="_blank" rel="noopener nofollow">kakobuy spreadsheet ↗</a>
+   <a class="btn btn-secondary" href="https://kakobuycnsheets.com/index.html" target="_blank" rel="noopener nofollow">buy it ↗</a>
+   <a class="btn btn-local" href="#map">Eksploruj atlas ↓</a>
+  </div>
+  <div class="status">
+   <span>13 kategorii</span>
+   <span>20 poradników</span>
+   <span>Język polski</span>
+  </div>
+ </div>
+
+ <div class="portal-area" aria-hidden="true">
+  <div class="portal">
+   <div class="portal-core">
+    <strong>KL.</strong>
+    <span>LINK ATLAS</span>
+   </div>
+   <span class="portal-tag tag-a">DISCOVER / 01</span>
+   <span class="portal-tag tag-b">QC SIGNAL</span>
+   <span class="portal-tag tag-c">PL / 2026</span>
+  </div>
+ </div>
+
+ <div class="hero-bottom">
+  <span>01 — Centrum nawigacji</span>
+  <span>Odkrywaj · Sprawdzaj · Porównuj</span>
+ </div>
+</section>
+
+<div class="marquee" aria-label="Tematy przewodnika">
+ <div class="marquee-inner">
+  <span>Kakobuy Links</span><b>✳</b>
+  <span>Spreadsheet</span><b>✳</b>
+  <span>Quality Check</span><b>✳</b>
+  <span>Polska</span><b>✳</b>
+  <span>2026</span>
+ </div>
+</div>
+
+<section class="signal-map section wrap" id="map" aria-labelledby="map-title">
+ <span class="section-label">01 / Mapa wiedzy</span>
+ <div class="map-head">
+  <div>
+   <h2 class="section-title" id="map-title">Odkryj <em>20 ścieżek.</em></h2>
+   <p class="section-intro">
+    Zamiast przypadkowej listy linków otrzymujesz uporządkowany atlas tematów. Wybierz interesujący poradnik i dowiedz się, jak porównywać oferty oraz ograniczać ryzyko zakupowe.
+   </p>
+  </div>
+  <div class="map-aside">
+   NAVIGATION SYSTEM<br>
+   20 PUNKTÓW<br>
+   13 KATEGORII<br>
+   BEZ ZBĘDNYCH SKRYPTÓW
+  </div>
+ </div>
+
+ <nav aria-label="Spis treści 20 poradników">
+  <ol class="toc">
+   <li><a href="#links-polska">Kakobuy links Polska</a></li>
+   <li><a href="#lista-2026">Lista linków 2026</a></li>
+   <li><a href="#spreadsheet">Kakobuy spreadsheet</a></li>
+   <li><a href="#aktualne-linki">Aktualność linków</a></li>
+   <li><a href="#buty">Linki do butów</a></li>
+   <li><a href="#bluzy">Bluzy i swetry</a></li>
+   <li><a href="#koszulki">Koszulki T-shirt</a></li>
+   <li><a href="#kurtki">Kurtki i warstwy</a></li>
+   <li><a href="#spodnie">Spodnie i szorty</a></li>
+   <li><a href="#czapki">Czapki i nakrycia</a></li>
+   <li><a href="#komplety">Zestawy odzieżowe</a></li>
+   <li><a href="#bielizna">Bielizna</a></li>
+   <li><a href="#jersey">Koszulki sportowe</a></li>
+   <li><a href="#akcesoria">Akcesoria</a></li>
+   <li><a href="#torby">Torby i plecaki</a></li>
+   <li><a href="#paski">Paski</a></li>
+   <li><a href="#perfumy">Perfumy</a></li>
+   <li><a href="#qc">Kontrola jakości QC</a></li>
+   <li><a href="#wysylka">Dostawa do Polski</a></li>
+   <li><a href="#bezpieczenstwo">Bezpieczne zakupy</a></li>
+  </ol>
+ </nav>
+</section>
+
+<section class="wrap" aria-labelledby="categories-title">
+ <div class="category-band">
+  <div>
+   <h2 id="categories-title">13 kategorii.<br>Jeden punkt startowy.</h2>
+   <p>Przejdź do zewnętrznego katalogu produktów. Sprawdzaj informacje i dostępność bezpośrednio na stronie docelowej.</p>
+  </div>
+  <div>
+   <a href="https://kakobuycnsheets.com/category-911-Shoes.html" target="_blank" rel="noopener nofollow">Buty ↗</a>
+   <a href="https://kakobuycnsheets.com/category-914-Jackets.html" target="_blank" rel="noopener nofollow">Kurtki ↗</a>
+   <a href="https://kakobuycnsheets.com/category-921-Bags.html" target="_blank" rel="noopener nofollow">Torby ↗</a>
+   <a href="#guide">20 poradników ↓</a>
+  </div>
+ </div>
+</section>
+
+<section class="article-section section" id="guide" aria-labelledby="guide-title">
+ <div class="wrap">
+  <div class="editorial-head">
+   <div>
+    <span class="section-label">02 / Baza wiedzy</span>
+    <h2 class="section-title" id="guide-title">Kakobuy Links<br><em>Knowledge Base.</em></h2>
+   </div>
+   <div class="read-time">20 tematów<br>Polska · 2026</div>
+  </div>
+
+  <div class="entries">
+
+   <article class="entry" id="links-polska">
+    <div>
+     <h2>Kakobuy links Polska — od czego zacząć?</h2>
+     <p><strong>Kakobuy links</strong> to linki prowadzące do ofert produktów lub uporządkowanych katalogów. Dla użytkowników z Polski szczególnie ważne są czytelne kategorie, informacje o rozmiarach oraz możliwość oceny całkowitego kosztu importu.</p>
+     <p>Najlepiej zacząć od wyboru kategorii i porównania kilku ofert. Sprawdź opis, zdjęcia, dostępne warianty oraz opinie z wiarygodnych źródeł. Sama obecność produktu na liście nie oznacza potwierdzonej jakości ani dostępności.</p>
+     <p class="answer"><strong>W skrócie:</strong> wybierz kategorię, sprawdź produkt, zweryfikuj sprzedawcę i oblicz koszt przed zamówieniem.</p>
+     <p class="returns"><a href="#top">↑ Strona główna</a><a href="https://kakobuycnsheets.com/" target="_blank" rel="noopener nofollow">↗ Katalog linków</a></p>
+    </div>
+   </article>
+
+   <article class="entry" id="lista-2026">
+    <div>
+     <h2>Kakobuy links 2026 — jak korzystać z listy produktów?</h2>
+     <p>Lista Kakobuy links 2026 może ułatwić przeglądanie ofert według typu odzieży, dodatków i innych produktów. Warto traktować ją jako punkt wyjścia do własnego porównania, a nie automatyczną rekomendację zakupu.</p>
+     <p>Otwierając link, zwróć uwagę na nazwę towaru, wariant, cenę, koszty obsługi i dostępne zdjęcia. Linki z katalogów mogą z czasem przestać działać albo prowadzić do zmienionych ofert. Dlatego przed płatnością sprawdzaj aktualne dane na stronie docelowej.</p>
+     <p class="answer"><strong>Wskazówka:</strong> zapisuj sprawdzone oferty wraz z datą weryfikacji, aby łatwiej rozpoznać późniejsze zmiany.</p>
+     <p class="returns"><a href="#top">↑ Strona główna</a><a href="https://kakobuycnsheets.com/" target="_blank" rel="noopener nofollow">↗ Lista produktów</a></p>
+    </div>
+   </article>
+
+   <article class="entry" id="spreadsheet">
+    <div>
+     <h2>Kakobuy spreadsheet a Kakobuy links — różnice</h2>
+     <p><strong>Kakobuy spreadsheet</strong> oznacza zwykle uporządkowaną tabelę produktów. Może zawierać nazwę, kategorię, link, orientacyjną cenę i dodatkowe uwagi. Kakobuy links to pojęcie szersze, obejmujące zarówno pojedyncze odnośniki, jak i całe listy.</p>
+     <p>Arkusz pomaga filtrować wiele ofert, natomiast bezpośredni link szybciej prowadzi do konkretnej strony produktu. W praktyce najlepiej łączyć oba sposoby: wyszukiwać w katalogu, a następnie samodzielnie weryfikować każdą ofertę.</p>
+     <p class="answer"><strong>Odpowiedź:</strong> spreadsheet służy do organizowania linków; link jest odnośnikiem do konkretnego zasobu.</p>
+     <p class="returns"><a href="#top">↑ Strona główna</a><a href="https://kakobuycnsheets.com/" target="_blank" rel="noopener nofollow">↗ Otwórz spreadsheet</a></p>
+    </div>
+   </article>
+
+   <article class="entry" id="aktualne-linki">
+    <div>
+     <h2>Jak sprawdzić, czy Kakobuy links nadal działają?</h2>
+     <p>Link znaleziony w starszym poradniku nie musi wskazywać aktualnej oferty. Produkt mógł zostać wycofany, sprzedawca mógł zmienić warianty albo strona mogła zostać przeniesiona.</p>
+     <p>Po otwarciu odnośnika porównaj nazwę, zdjęcia, rozmiary i cenę z informacjami, których szukałeś. Unikaj podejrzanych przekierowań i stron żądających nieuzasadnionych danych. Jeżeli oferta różni się od opisu, nie zakładaj, że dotyczy tego samego produktu.</p>
+     <p class="answer"><strong>Kontrola:</strong> poprawny adres, zgodność zdjęć, dostępność wariantu, warunki płatności i wiarygodność sprzedawcy.</p>
+     <p class="returns"><a href="#top">↑ Strona główna</a><a href="https://kakobuycnsheets.com/" target="_blank" rel="noopener nofollow">↗ Przeglądaj linki</a></p>
+    </div>
+   </article>
+
+   <article class="entry" id="buty">
+    <div>
+     <h2>Kakobuy shoes links — jak wybierać buty?</h2>
+     <p>Przy wyszukiwaniu butów przez Kakobuy links najważniejsze są wymiary wkładki, tabela rozmiarów i rzeczywiste zdjęcia produktu. Sam numer EU nie zawsze wystarcza, ponieważ rozmiarówki różnych producentów mogą się różnić.</p>
+     <p>Sprawdzaj materiał cholewki, konstrukcję podeszwy, rodzaj zapięcia i informacje o wadze. Jeśli dostępne są zdjęcia QC, porównaj obie strony obuwia oraz detale wykonania. Koszt przesyłki może być zależny również od objętości opakowania.</p>
+     <p class="answer"><strong>Najważniejsze:</strong> zmierz długość stopy w centymetrach i porównaj ją z tabelą konkretnego produktu.</p>
+     <p class="returns"><a href="#top">↑ Strona główna</a><a href="https://kakobuycnsheets.com/category-911-Shoes.html" target="_blank" rel="noopener nofollow">↗ Linki do butów</a></p>
+    </div>
+   </article>
+
+   <article class="entry" id="bluzy">
+    <div>
+     <h2>Kakobuy hoodie links — bluzy i swetry</h2>
+     <p>Linki do bluz i swetrów warto oceniać przez pryzmat składu materiału, gramatury oraz kroju. Określenia oversize, regular fit i slim fit nie zastępują dokładnych wymiarów.</p>
+     <p>Sprawdź szerokość klatki piersiowej, długość całkowitą i rękaw. Zwróć uwagę na jakość szwów, wykończenie ściągaczy i sposób pielęgnacji. Przy zakupach na chłodniejsze miesiące znaczenie mają również rodzaj dzianiny oraz obecność ocieplenia.</p>
+     <p class="answer"><strong>Porada:</strong> porównuj wymiary bluzy z ubraniem, które już dobrze na Tobie leży.</p>
+     <p class="returns"><a href="#top">↑ Strona główna</a><a href="https://kakobuycnsheets.com/category-912-Hoodies%2FSweaters.html" target="_blank" rel="noopener nofollow">↗ Bluzy i swetry</a></p>
+    </div>
+   </article>
+
+   <article class="entry" id="koszulki">
+    <div>
+     <h2>Kakobuy T-shirt links — rozmiary i materiały</h2>
+     <p>Przy wyborze koszulki z katalogu Kakobuy links sprawdź przede wszystkim długość, szerokość i fason. Zdjęcie modela nie zawsze oddaje rzeczywiste proporcje ubrania.</p>
+     <p>Istotne są także skład włókien, grubość tkaniny oraz trwałość nadruku. Na dostępnych fotografiach szukaj nierównych przeszyć i różnic kolorystycznych. Zamawiając kilka koszulek, porównaj ich rozmiary indywidualnie, nawet jeśli pochodzą z tej samej kategorii.</p>
+     <p class="answer"><strong>Praktycznie:</strong> wymiary produktu są bardziej użyteczne niż sama etykieta S, M, L lub XL.</p>
+     <p class="returns"><a href="#top">↑ Strona główna</a><a href="https://kakobuycnsheets.com/category-913-T-Shirts.html" target="_blank" rel="noopener nofollow">↗ T-Shirts</a></p>
+    </div>
+   </article>
+
+   <article class="entry" id="kurtki">
+    <div>
+     <h2>Kakobuy jacket links — kurtki na różne sezony</h2>
+     <p>Wybierając kurtkę, rozróżnij model przejściowy, przeciwdeszczowy i zimowy. Każdy z nich powinien być oceniany na podstawie innych parametrów. Zdjęcie atrakcyjnej kurtki nie potwierdza odporności na deszcz ani właściwości termicznych.</p>
+     <p>Poszukaj informacji o materiale zewnętrznym, ociepleniu, podszewce, długości rękawów i rodzaju zamka. Przy bardziej technicznych ubraniach sprawdzaj deklarowane właściwości i dostępność ich potwierdzenia.</p>
+     <p class="answer"><strong>Warto sprawdzić:</strong> temperaturę użytkowania, materiał, wymiary i przewidywaną wagę przesyłki.</p>
+     <p class="returns"><a href="#top">↑ Strona główna</a><a href="https://kakobuycnsheets.com/category-914-Jackets.html" target="_blank" rel="noopener nofollow">↗ Kategoria Jackets</a></p>
+    </div>
+   </article>
+
+   <article class="entry" id="spodnie">
+    <div>
+     <h2>Kakobuy pants links — spodnie i szorty</h2>
+     <p>Przy wyborze spodni przez Kakobuy links należy sprawdzać obwód pasa, długość nogawki, szerokość uda i wysokość stanu. Różnice w kroju mają duży wpływ na wygodę.</p>
+     <p>Dla jeansów znaczenie ma skład i elastyczność materiału. W spodniach sportowych zwróć uwagę na oddychalność i sposób wykończenia. Przy szortach sprawdzaj długość wewnętrznego szwu. Unikaj wybierania rozmiaru wyłącznie na podstawie wzrostu.</p>
+     <p class="answer"><strong>Szybka metoda:</strong> porównaj tabelę wymiarów z ulubioną parą spodni rozłożoną na płasko.</p>
+     <p class="returns"><a href="#top">↑ Strona główna</a><a href="https://kakobuycnsheets.com/category-915-Pants%2FShorts.html" target="_blank" rel="noopener nofollow">↗ Spodnie i szorty</a></p>
+    </div>
+   </article>
+
+   <article class="entry" id="czapki">
+    <div>
+     <h2>Kakobuy headwear links — czapki i nakrycia głowy</h2>
+     <p>W kategorii Headwear można szukać różnych rodzajów nakryć głowy. Przed wyborem warto określić, czy interesuje Cię czapka z daszkiem, zimowa czy model o określonej konstrukcji.</p>
+     <p>Sprawdź obwód, możliwość regulacji, materiał i sposób wentylacji. Przy czapkach zimowych istotna jest elastyczność dzianiny. W modelach z daszkiem oceń sztywność paneli i rodzaj zapięcia. Zdjęcia detali pomagają zauważyć nierówne szwy.</p>
+     <p class="answer"><strong>Wskazówka:</strong> obwód głowy w centymetrach jest dobrym punktem odniesienia do rozmiaru.</p>
+     <p class="returns"><a href="#top">↑ Strona główna</a><a href="https://kakobuycnsheets.com/category-916-Headwear.html" target="_blank" rel="noopener nofollow">↗ Headwear</a></p>
+    </div>
+   </article>
+
+   <article class="entry" id="komplety">
+    <div>
+     <h2>Kakobuy sets links — jak dobrać komplet?</h2>
+     <p>Zestawy odzieżowe mogą obejmować dwie lub więcej części garderoby. Przed zakupem sprawdź dokładnie, jakie elementy są wliczone w cenę. Fotografie promocyjne mogą przedstawiać również dodatki, które nie należą do zestawu.</p>
+     <p>Porównaj osobno wymiary góry i dołu, ponieważ proporcje nie zawsze odpowiadają indywidualnej sylwetce. Oceń spójność kolorów, materiałów i sposób prania. Upewnij się też, czy zamówienie pozwala wybrać różne rozmiary elementów.</p>
+     <p class="answer"><strong>Zasada:</strong> sprawdź zawartość zestawu oraz wymiary każdej części przed zapłatą.</p>
+     <p class="returns"><a href="#top">↑ Strona główna</a><a href="https://kakobuycnsheets.com/category-917-Sets.html" target="_blank" rel="noopener nofollow">↗ Komplety odzieżowe</a></p>
+    </div>
+   </article>
+
+   <article class="entry" id="bielizna">
+    <div>
+     <h2>Kakobuy underwear links — wygoda i higiena</h2>
+     <p>Przy wyborze bielizny kluczowe znaczenie mają skład, rozmiar, elastyczność i wykończenie materiału. Warto szukać informacji o sposobie pakowania i zasadach zwrotu, które mogą być ograniczone ze względów higienicznych.</p>
+     <p>Nie zakładaj, że rozmiar stosowany w Polsce będzie identyczny z rozmiarem oznaczonym na zagranicznej ofercie. Sprawdź tabelę producenta i zalecenia dotyczące pielęgnacji. Dobrze opisany produkt powinien jasno wskazywać skład i liczbę sztuk.</p>
+     <p class="answer"><strong>Uwaga:</strong> sprawdź politykę zwrotów i dane materiałowe przed zamówieniem produktów osobistych.</p>
+     <p class="returns"><a href="#top">↑ Strona główna</a><a href="https://kakobuycnsheets.com/category-918-underwear%2Funderpants.html" target="_blank" rel="noopener nofollow">↗ Underwear</a></p>
+    </div>
+   </article>
+
+   <article class="entry" id="jersey">
+    <div>
+     <h2>Kakobuy jersey links — koszulki sportowe</h2>
+     <p>W kategorii Jersey istotne są krój, oddychalność, trwałość nadruków i sposób wykonania oznaczeń. Koszulki treningowe i kibicowskie mogą różnić się fasonem, dlatego przed wyborem należy porównać ich tabele rozmiarów.</p>
+     <p>Na zdjęciach zwróć uwagę na szwy, kołnierz, strukturę tkaniny i jakość numeracji. Jeżeli zależy Ci na autentycznym licencjonowanym produkcie, sprawdź sprzedawcę i oficjalne źródła dystrybucji. Sama fotografia ani nazwa oferty nie potwierdzają oryginalności.</p>
+     <p class="answer"><strong>Najważniejsze:</strong> dopasowanie, przeznaczenie sportowe i wiarygodna informacja o pochodzeniu produktu.</p>
+     <p class="returns"><a href="#top">↑ Strona główna</a><a href="https://kakobuycnsheets.com/category-919-Jersey.html" target="_blank" rel="noopener nofollow">↗ Jersey links</a></p>
+    </div>
+   </article>
+
+   <article class="entry" id="akcesoria">
+    <div>
+     <h2>Kakobuy accessories links — praktyczne dodatki</h2>
+     <p>Akcesoria obejmują produkty o różnym przeznaczeniu, dlatego warto rozpocząć od określenia oczekiwanych cech. Przy drobnych dodatkach znaczenie mają rzeczywiste wymiary, materiał oraz sposób użytkowania.</p>
+     <p>Przeczytaj opis zestawu, sprawdź liczbę elementów i oceń zdjęcia detali. W przypadku produktów mających kontakt ze skórą szukaj informacji o składzie i wymaganych oznaczeniach bezpieczeństwa. Niska cena bez informacji o materiale nie jest wystarczającym argumentem zakupowym.</p>
+     <p class="answer"><strong>Kontrola:</strong> funkcjonalność, skład, liczba elementów i zgodność ze zdjęciami.</p>
+     <p class="returns"><a href="#top">↑ Strona główna</a><a href="https://kakobuycnsheets.com/category-920-Accessories.html" target="_blank" rel="noopener nofollow">↗ Accessories</a></p>
+    </div>
+   </article>
+
+   <article class="entry" id="torby">
+    <div>
+     <h2>Kakobuy bag links — torby, plecaki i organizacja</h2>
+     <p>Wybierając torbę lub plecak, porównaj wymiary, liczbę przegródek, rodzaj zamknięcia oraz materiał. W codziennym użytkowaniu ważniejsze od samego wyglądu bywają wygoda noszenia i dostęp do kieszeni.</p>
+     <p>Sprawdź deklarowaną pojemność oraz maksymalne wymiary urządzeń, które torba ma pomieścić. Przy zdjęciach QC zwróć uwagę na mocowanie pasków, zamki i wnętrze. Nie przyjmuj informacji o wodoodporności bez odpowiedniego opisu lub potwierdzenia.</p>
+     <p class="answer"><strong>Porada:</strong> przed wyborem zmierz laptop, tablet lub inne przedmioty, które zamierzasz nosić.</p>
+     <p class="returns"><a href="#top">↑ Strona główna</a><a href="https://kakobuycnsheets.com/category-921-Bags.html" target="_blank" rel="noopener nofollow">↗ Bag links</a></p>
+    </div>
+   </article>
+
+   <article class="entry" id="paski">
+    <div>
+     <h2>Kakobuy belt links — długość i wykonanie</h2>
+     <p>Wybór paska zaczyna się od prawidłowego pomiaru. Długość całkowita paska może różnić się od rozmiaru mierzonego do środkowej dziurki, dlatego należy sprawdzić sposób podawania wymiarów.</p>
+     <p>Zwróć uwagę na materiał, rodzaj klamry, szerokość i możliwość regulacji. Zdjęcia powinny pomagać ocenić krawędzie, przeszycia i połączenie klamry z paskiem. Określenia dotyczące rodzaju skóry lub metalu warto potwierdzić w opisie produktu.</p>
+     <p class="answer"><strong>Wskazówka:</strong> dobieraj rozmiar według obwodu w miejscu noszenia, nie wyłącznie według rozmiaru spodni.</p>
+     <p class="returns"><a href="#top">↑ Strona główna</a><a href="https://kakobuycnsheets.com/category-922-Belts.html" target="_blank" rel="noopener nofollow">↗ Belts</a></p>
+    </div>
+   </article>
+
+   <article class="entry" id="perfumy">
+    <div>
+     <h2>Kakobuy perfume links — na co uważać?</h2>
+     <p>Przy produktach zapachowych istotne są skład, pochodzenie, objętość, oznakowanie oraz zgodność z przepisami. Zdjęcia opakowania nie pozwalają samodzielnie ocenić autentyczności ani bezpieczeństwa substancji.</p>
+     <p>Perfumy i inne płyny zapachowe mogą podlegać ograniczeniom przewozowym ze względu na zawartość alkoholu lub inne właściwości. Przed zamówieniem do Polski sprawdź zasady wybranej firmy transportowej oraz wymagania dotyczące importu kosmetyków. Brak możliwości wysyłki może uniemożliwić realizację zamówienia.</p>
+     <p class="answer"><strong>Uwaga:</strong> najpierw zweryfikuj legalność, bezpieczeństwo i możliwość transportu, dopiero potem cenę.</p>
+     <p class="returns"><a href="#top">↑ Strona główna</a><a href="https://kakobuycnsheets.com/category-923-Perfumes.html" target="_blank" rel="noopener nofollow">↗ Perfumes</a></p>
+    </div>
+   </article>
+
+   <article class="entry" id="qc">
+    <div>
+     <h2>Kakobuy QC — jak analizować zdjęcia kontroli jakości?</h2>
+     <p><strong>QC (Quality Check)</strong> oznacza kontrolę jakości. Jeśli dla produktu dostępne są zdjęcia QC, mogą one pomóc ocenić wygląd konkretnego egzemplarza. Nie zastępują jednak testów trwałości, bezpieczeństwa ani potwierdzenia autentyczności.</p>
+     <p>Sprawdź widok z przodu, tyłu i boków, a także detale, które są dla Ciebie najważniejsze. Porównaj kolor, rozmiar, wykończenie i zgodność wariantu z zamówieniem. Przy nieczytelnych fotografiach warto poprosić sprzedawcę o dodatkowe informacje, jeśli taka opcja istnieje.</p>
+     <p class="answer"><strong>Lista QC:</strong> wymiary, kolor, szwy, symetria, kompletność i widoczne uszkodzenia.</p>
+     <p class="returns"><a href="#top">↑ Strona główna</a><a href="https://kakobuycnsheets.com/" target="_blank" rel="noopener nofollow">↗ Przeglądaj produkty</a></p>
+    </div>
+   </article>
+
+   <article class="entry" id="wysylka">
+    <div>
+     <h2>Kakobuy shipping Polska — koszty dostawy i importu</h2>
+     <p>Przy kalkulowaniu zamówienia do Polski należy uwzględnić nie tylko cenę produktów, ale też transport, ewentualne opłaty obsługowe i należności importowe. Koszt przewozu może zależeć od wagi rzeczywistej lub objętościowej.</p>
+     <p>Import spoza Unii Europejskiej może podlegać VAT, cłu i opłatom za odprawę, zależnie od wartości oraz rodzaju towaru i aktualnych zasad. Przed płatnością porównaj dostępne metody dostawy, wyłączenia przewozowe i warunki ewentualnego ubezpieczenia.</p>
+     <p class="answer"><strong>Wzór orientacyjny:</strong> produkty + transport + obsługa + należności importowe = całkowity koszt.</p>
+     <p class="returns"><a href="#top">↑ Strona główna</a><a href="https://kakobuycnsheets.com/" target="_blank" rel="noopener nofollow">↗ Katalog produktów</a></p>
+    </div>
+   </article>
+
+   <article class="entry" id="bezpieczenstwo">
+    <div>
+     <h2>Czy Kakobuy links są bezpieczne? Lista kontrolna</h2>
+     <p>Bezpieczeństwo zależy od konkretnego adresu, sprzedawcy, produktu i sposobu płatności. Nawet poprawnie wyglądający link nie daje gwarancji otrzymania towaru zgodnego z opisem.</p>
+     <p>Sprawdzaj pełny adres strony, aktualne warunki zakupu, zasady reklamacji i ochronę płatności. Zachowuj potwierdzenia zamówień i unikaj przekazywania danych poza zaufanym procesem zakupowym. W przypadku markowych produktów weryfikuj autentyczność i przestrzegaj praw własności intelektualnej oraz przepisów importowych.</p>
+     <p class="answer"><strong>Pięć zasad:</strong> zweryfikuj adres, sprzedawcę, opis, opłaty i warunki zwrotu. Żadna lista nie eliminuje całego ryzyka.</p>
+     <p class="returns"><a href="#top">↑ Strona główna</a><a href="https://kakobuycnsheets.com/" target="_blank" rel="noopener nofollow">↗ Otwórz katalog</a></p>
+    </div>
+   </article>
+
+  </div>
+ </div>
+</section>
+
+<section class="faq-section section" id="faq" aria-labelledby="faq-title">
+ <div class="wrap faq-layout">
+  <div>
+   <span class="section-label">03 / Answer Engine</span>
+   <h2 class="section-title" id="faq-title">Pytania.<br><em>Odpowiedzi.</em></h2>
+   <p class="section-intro">Najważniejsze informacje o Kakobuy links dla użytkowników z Polski, podane w krótkiej i czytelnej formie.</p>
+  </div>
+  <div class="faq-list">
+   <details>
+    <summary>Czym są Kakobuy links?</summary>
+    <p>To odnośniki do ofert produktów lub katalogów pomocnych w ich wyszukiwaniu. Przed zakupem warto zweryfikować ofertę, sprzedawcę, zdjęcia i warunki dostawy.</p>
+   </details>
+   <details>
+    <summary>Czy Kakobuy spreadsheet i Kakobuy links to to samo?</summary>
+    <p>Niezupełnie. Spreadsheet to uporządkowana lista produktów i odnośników, natomiast Kakobuy links oznacza pojedyncze linki lub ich zbiór.</p>
+   </details>
+   <details>
+    <summary>Jak sprawdzić Kakobuy QC?</summary>
+    <p>Przejrzyj dostępne zdjęcia kontroli jakości i sprawdź wymiary, materiał, detale oraz zgodność wariantu z zamówieniem. Dostępność zdjęć QC nie jest gwarantowana.</p>
+   </details>
+   <details>
+    <summary>Czy dostawa do Polski podlega dodatkowym opłatom?</summary>
+    <p>Import może wiązać się z VAT, cłem, kosztami odprawy i przewozu. Ostateczne opłaty zależą od wartości przesyłki, rodzaju towaru i obowiązujących przepisów.</p>
+   </details>
+   <details>
+    <summary>Czy ta strona jest oficjalną stroną Kakobuy?</summary>
+    <p>Nie. To niezależna strona informacyjna. Nie prowadzi sprzedaży, nie realizuje zamówień i nie świadczy obsługi klienta Kakobuy.</p>
+   </details>
+  </div>
+ </div>
+</section>
+
+</main>
+
+<footer class="footer">
+ <div class="wrap">
+  <div class="footer-top">
+   <div>
+    <h2>LINKS.<br>WITHOUT CHAOS<span style="color:var(--pink)">.</span></h2>
+    <p>Kakobuy Links Polska to niezależny przewodnik informacyjny po kategoriach produktów, linkach i zasadach oceny ofert.</p>
+    <p>Nie jesteśmy powiązani z Kakobuy, Weidian ani Tmall. Nie zajmujemy się sprzedażą, wysyłką ani obsługą klienta. Linki zewnętrzne prowadzą do niezależnych stron, a zakupy i import odbywają się na odpowiedzialność użytkownika. Witryna może zawierać linki afiliacyjne.</p>
+    <p>Informacje mają charakter ogólny. Ceny, dostępność, warunki transportu i przepisy mogą się zmieniać. Żaden produkt nie jest tutaj przedstawiany jako zweryfikowany pod względem autentyczności.</p>
+   </div>
+   <nav class="footer-links" aria-label="Linki w stopce">
+    <a href="#top">↑ Powrót do strony głównej</a>
+    <a href="#map">→ Atlas 20 poradników</a>
+    <a href="#guide">→ Baza wiedzy Kakobuy links</a>
+    <a href="#faq">→ Najczęstsze pytania</a>
+    <a href="https://kakobuycnsheets.com/" target="_blank" rel="noopener nofollow">↗ Zewnętrzny katalog produktów</a>
+   </nav>
+  </div>
+  <div class="footer-bottom">
+   <span>© 2026 Kakobuy Links Polska · Niezależny przewodnik</span>
+   <span>PL / EN · Informacje zakupowe · 20 tematów</span>
+  </div>
+ </div>
+</footer>
+</body>
+</html>
